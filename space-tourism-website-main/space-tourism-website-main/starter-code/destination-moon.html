@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;1,100&family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="Destination.css">
+
+  <title>Destination</title>
+</head>
+
+<body>
+<nav>
+  <div class="logo">
+    <img  src="assets/shared/logo.svg">
+      <div class="gradient1"></div>
+  </div>
+  <ul class="navv">
+    <li ><a href="index.html">00 Home</a></li>
+    <li style="border-bottom: 5px solid whitesmoke;padding-bottom: 20px;"><a href="destination-moon.html">01 Destination</a></li>
+    <li> <a href="crew-commander.html">02 Crew</a></li>
+    <li><a href="technology-capsule.html">03 Technology</a></li>
+  </ul>
+</nav>
+
+<div style="padding-top: 100px;margin-left: 50px;">
+<h1  class="h1" style="font-family: var(--bellefair);color: whitesmoke;margin-top: -100px;">01 Pick your destination</h1><br>
+  <div  style="margin-left: 50px;">
+  <img id="Image" class="planet-image" src="assets/destination/image-moon.png">
+  </div>
+
+<ul class="ul" style="margin-top: -550px;margin-right: 200px;">
+  <li id="mon" style="border-bottom:5px solid aliceblue;padding-bottom: 2px;"><button id="Moon">Moon</button></li>
+  <li id="mar"><button id="Mars">Mars</button></li>
+  <li id="euro"><button id="Europa">Europa</button></li>
+  <li id="tita"><button id="Titan">Titan</button></li>
+</ul><br>
+  <h1 id="PlanetName" class="planet-image" style="font-family: var(--bellefair);color: whitesmoke; margin-left:700px;font-size: 150px;margin-top:-480px;">MOON</h1><br>
+ <p id="Description" style="margin-left: 550px; margin-top: -110px;width: 50%;"> See our planet as you’ve never seen it before. A perfect relaxing<br> trip away to help
+  regain perspective and come back refreshed. While you’re there, take in some history 
+  by visiting the Luna 2 and Apollo 11 landing sites. </p>
+  <div class="gradient"></div>
+ <p style="font-family: var(--barlo);margin-left: 600px;color: whitesmoke; margin-top: 30px;font-size: 14px;"> Avg. distance </p>
+  <h2 id="distance" style="font-family: var(--barlo);margin-left: 600px;color: whitesmoke; margin-top: 30px; font-size: 28px;">384,400 km</h2>
+
+  <p style="display: flex; flex-direction:row;color: whitesmoke;margin-left: 1000px; margin-top: -100px;">Est. travel time</p>
+  <h2 id="Travel" style="font-family: var(--barlo);margin-left: 1010px;color: whitesmoke; margin-top: 30px; font-size: 28px;"> 3 days </h2>
+</div>
+<script src="Planets.js"></script>
+</body>
+</html>

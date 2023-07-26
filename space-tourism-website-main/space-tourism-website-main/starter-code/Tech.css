@@ -1,0 +1,139 @@
+:root{
+    --mono: "Oxygen mono", monospace;
+    --sans: Oxygen, sans-serif;
+    --bellefair: 'Bellefair Regular', serif;
+    --barlo: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+
+body {
+    background-image: url("assets/technology/background-technology-desktop.jpg");
+    background-size: cover; /* Adjusts the background size to cover the entire body */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image horizontally and vertically */
+    width: 1440px;
+    height: 850px;
+}
+
+
+
+
+.navv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    backdrop-filter: blur(70px);
+    background-color: #131522;
+    width:40%;
+    margin-left:700px;
+    font-size: 15px;
+    border-radius: 30px;
+
+
+}
+li{
+    letter-spacing: 1px;
+    list-style: none;
+    font-family: var(--sans);
+}
+.logo{
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: var(--sans);
+}
+a:hover{
+    border-bottom: 5px solid grey;
+    color: crimson;
+    padding-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.gradient1{
+    height:2px;
+    background: linear-gradient(90deg, rgba(256,256,256,0256) 100%, rgba(134,251,251,1) 0%);
+    width:520px;
+    display: flex;
+    margin-left: 70px;
+    margin-bottom: 60px;
+    margin-top: -30px;
+}
+
+p{
+    color: aliceblue;
+    font-family: var(--sans);
+    width: 40%;
+    margin-left: 230px;
+    line-height: 1.5;
+    margin-top: -30px;
+}
+
+
+
+
+
+
+h4{
+    font-family: var(--barlo);
+    font-size: 17px;
+    color: aliceblue;
+
+}
+
+.tech-image {
+    width:515px;
+    height: 527px;
+    margin-left: 850px;
+    margin-top: -430px;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.ul{
+
+    list-style: none;
+    color: aliceblue;
+    font-family: var(--sans);
+}
+
+.ul li{
+    margin-left: 70px;
+    padding: 40px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+
+/* Common styles for buttons */
+.toggle-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+}
+
+/* Styles for the buttons in their hover state */
+.toggle-button.hover {
+    background-color: aliceblue;
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+
+.toggle-button:hover {
+    background-color: grey;
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+
+

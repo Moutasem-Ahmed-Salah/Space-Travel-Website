@@ -1,0 +1,141 @@
+:root{
+    --mono: "Oxygen mono", monospace;
+    --sans: Oxygen, sans-serif;
+    --bellefair: 'Bellefair Regular', serif;
+}
+
+
+
+body {
+    background-image: url("assets/home/background-home-desktop.jpg");
+    background-size: cover; /* Adjusts the background size to cover the entire body */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image horizontally and vertically */
+   width: 1440px;
+    height: 900px;
+}
+/* Your existing CSS code */
+
+
+
+/* Rest of your CSS code */
+
+.navv{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    backdrop-filter: blur(70px);
+    width:40%;
+   margin-right: 100px;
+    margin-bottom: 150px;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-top: -30px;
+
+}
+.h1{
+    font-size: 150px;
+    color: aliceblue;
+    margin-left: 20px;
+   padding-bottom: 0px;
+    margin: 0;
+    font-family:var(--bellefair);
+    display: grid;
+    grid-area: h1;
+
+}
+
+
+
+h4{
+    margin-top: 50px;
+    font-size: 30px;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: h4;
+}
+p{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: lefter;
+    color: aliceblue;
+    font-family: var(--sans);
+}
+.logo{
+    float: left;
+    margin-left: 100px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    list-style: none;
+    color: aliceblue;
+    gap: 60px;
+}
+li{
+    letter-spacing: 1px;
+
+    font-family: var(--sans);
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: var(--sans);
+}
+a:hover{
+    border-bottom: 5px solid grey;
+    color: crimson;
+    padding-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+}
+.explore{
+    background-color: white;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 70px;
+    font-family: var(--bellefair);
+    justify-items: center;
+    align-items: center;
+    margin-left: 400px;
+    display: grid;
+    grid-area: buttone;
+}
+
+
+
+.explore:hover{
+    background-color: white;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 70px;
+    font-family: var(--bellefair);
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-area: buttone;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    transform: scale(1.5);
+}
+
+
+.gridd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    grid-template-areas:
+    "h4 h4"
+    "h1  buttone"
+    "lefter lefter";
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
