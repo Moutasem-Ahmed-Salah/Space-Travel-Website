@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center center; /* Centers the image horizontally and vertically */
    width: 1440px;
-    height: 900px;
+    height: 1000px;
 }
 /* Your existing CSS code */
 
@@ -39,18 +39,16 @@ body {
     font-size: 150px;
     color: aliceblue;
     margin-left: 20px;
-   padding-bottom: 0px;
-    margin: 0;
+    margin-top: -150px;
     font-family:var(--bellefair);
     display: grid;
     grid-area: h1;
-
 }
 
 
 
 h4{
-    margin-top: 50px;
+    margin-bottom: -60px;
     font-size: 30px;
     color: aliceblue;
     display: grid;
@@ -59,6 +57,7 @@ h4{
 }
 p{
     display: grid;
+    margin-top: -150px;
     grid-template-columns: 1fr 1fr;
     grid-area: lefter;
     color: aliceblue;
@@ -130,7 +129,7 @@ a:hover{
 .gridd{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
     "h4 h4"
     "h1  buttone"
@@ -139,3 +138,32 @@ a:hover{
     margin-left: 100px;
 }
 
+.links{
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+
+
+}
+.links a {
+    font-size: 50px; /* Adjust the size according to your preference */
+    margin: 0 10px; /* Adds 10px of horizontal space between the icons */
+}
+
+.square{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:40px;
+    border-radius: 10px;
+    color: #131522;
+    text-decoration: none;
+    font-size: 20px;
+
+}
