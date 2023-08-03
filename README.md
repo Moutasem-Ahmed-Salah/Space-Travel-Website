@@ -2,7 +2,7 @@
 multi-page space tourism website to view diffrents planets across the galaxy.
 #Technologies Used
 HTML-JAVA SCRIPT-CSS
-#ScreenShots
+# ScreenShots
 
 ![Screenshot (22)](https://github.com/Moutasem-Ahmed-Salah/Space-Travel-Website/assets/125928209/7a9c240b-5228-4fbb-82ba-0ce8f1e088ea)
 
