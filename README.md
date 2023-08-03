@@ -1,6 +1,6 @@
 # Space-Travel-Website
 multi-page space tourism website to view diffrents planets across the galaxy.
-#Technologies Used
+# Technologies Used
 HTML-JAVA SCRIPT-CSS
 # ScreenShots
 
