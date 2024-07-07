@@ -1,0 +1,124 @@
+:root{
+    --mono: "Oxygen mono", monospace;
+    --sans: Oxygen, sans-serif;
+    --bellefair: 'Bellefair Regular', serif;
+    --barlo: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+
+body {
+    background-image: url("assets/destination/background-destination-desktop.jpg");
+    background-size: cover; /* Adjusts the background size to cover the entire body */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image horizontally and vertically */
+    width: 1440px;
+    height: 900px;
+}
+
+ .planet-image {
+     transition: opacity 0.5s ease-in-out;
+ }
+
+
+
+.navv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    backdrop-filter: blur(70px);
+    width:40%;
+    margin-left:700px;
+    font-size: 15px;
+    border-radius: 30px;
+
+
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    list-style: none;
+    color: aliceblue;
+    gap: 60px;
+}
+
+li{
+    letter-spacing: 1px;
+    list-style: none;
+    font-family: var(--sans);
+}
+.logo{
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: var(--sans);
+}
+a:hover{
+    border-bottom: 5px solid grey;
+    color: crimson;
+    padding-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.h1{
+    font-family: var(--bellefair);
+    font-size: 50px;
+    color: aliceblue;
+    margin-left: 70px;
+    margin-top: -100px;
+}
+
+.gradient{
+    height:2px;
+    background: linear-gradient(90deg, rgba(255,23,228,1) 35%, rgba(134,251,251,1) 67%);
+    width: 60%;
+    float: right;
+    margin-top:-210px;
+    margin-right: 80px;
+}
+
+.gradient1{
+    height:2px;
+    background: linear-gradient(90deg, rgba(256,256,256,0256) 100%, rgba(134,251,251,1) 0%);
+    width:520px;
+    display: flex;
+    margin-left: 70px;
+    margin-bottom: 60px;
+    margin-top: -30px;
+}
+
+
+
+p{
+    color: aliceblue;
+    font-family: var(--sans);
+    line-height: 1.5;
+}
+
+button{
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    font-size: 15px;
+    font-family: var(--sans);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+button:hover{
+    border-bottom: 5px solid grey;
+    color: crimson;
+    padding-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+}
