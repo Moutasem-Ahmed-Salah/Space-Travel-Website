@@ -91,7 +91,7 @@ a:hover{
     padding-bottom: 20px;
     transition: color 0.3s ease-in-out;
 }
-.explore{
+.explore {
     background-color: white;
     border-radius: 50%;
     width: 300px;
@@ -104,26 +104,15 @@ a:hover{
     margin-left: 400px;
     display: grid;
     grid-area: buttone;
+    transition: transform 0.3s ease-in-out; /* Add transition here */
 }
 
-
-
-.explore:hover{
-    background-color: white;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    font-size: 70px;
-    font-family: var(--bellefair);
-    justify-items: center;
-    align-items: center;
-    display: grid;
-    grid-area: buttone;
-    opacity: 1;
-    transition: opacity 0.3s ease-in-out;
-    transform: scale(1.5);
+.explore:hover {
+    transform: scale(1.1); /* Adjust scale to 1.1 for smoother effect */
+color: crimson;
+    transition: transform 0.3s ease-in-out; /* Add transition here */
 }
+
 
 
 .gridd{
